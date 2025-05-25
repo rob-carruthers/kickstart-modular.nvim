@@ -39,6 +39,7 @@ require('lazy').setup({
   require 'custom/plugins/nordic',
   require 'custom/plugins/hardtime',
   require 'custom/plugins/nvim-notify',
+  require 'custom/plugins/molten-nvim',
 
   require 'kickstart/plugins/todo-comments',
 
