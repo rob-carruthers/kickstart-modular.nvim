@@ -38,6 +38,7 @@ require('lazy').setup({
   -- require 'kickstart/plugins/tokyonight',
   require 'custom/plugins/nordic',
   require 'custom/plugins/hardtime',
+  require 'custom/plugins/nvim-notify',
 
   require 'kickstart/plugins/todo-comments',
 
