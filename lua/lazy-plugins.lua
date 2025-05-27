@@ -40,6 +40,7 @@ require('lazy').setup({
   require 'custom/plugins/hardtime',
   require 'custom/plugins/nvim-notify',
   require 'custom/plugins/molten-nvim',
+  require 'custom/plugins/virtcolumn',
 
   require 'kickstart/plugins/todo-comments',
 
