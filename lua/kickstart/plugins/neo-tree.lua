@@ -16,16 +16,17 @@ return {
   opts = {
     filesystem = {
       window = {
+        width = 30,
         mappings = {
           ['\\'] = 'close_window', -- your custom close key
-          ['<cr>'] = 'open',       -- default: opens in current window (but still creates buffer)
-          ['s'] = 'open_split',    -- open in horizontal split (new buffer)
-          ['v'] = 'open_vsplit',   -- open in vertical split (new buffer)
-          ['t'] = 'open_tabnew',   -- open in new tab page
+          ['<cr>'] = 'open', -- default: opens in current window (but still creates buffer)
+          ['s'] = 'open_split', -- open in horizontal split (new buffer)
+          ['v'] = 'open_vsplit', -- open in vertical split (new buffer)
+          ['t'] = 'open_tabnew', -- open in new tab page
         },
       },
       follow_current_file = { enabled = true }, -- optional but nice
-      hijack_netrw_behavior = 'open_default',   -- recommended
+      hijack_netrw_behavior = 'open_default', -- recommended
     },
   },
 }
