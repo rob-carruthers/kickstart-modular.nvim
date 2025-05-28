@@ -42,6 +42,7 @@ require('lazy').setup({
   require 'custom/plugins/molten-nvim',
   require 'custom/plugins/virtcolumn',
   require 'custom/plugins/comment',
+  require 'custom/plugins/bufferline',
 
   require 'kickstart/plugins/todo-comments',
 
