@@ -6,6 +6,7 @@ return {
     init = function()
       vim.g.molten_output_win_max_height = 12
       vim.g.molten_output_win_max_width = 250
+      vim.g.molten_auto_image_popup = true
       vim.keymap.set('n', '<localleader>mi', ':MoltenInit<CR>', { silent = true, desc = 'Initialise Molten' })
       vim.keymap.set('n', '<localleader>e', ':MoltenEvaluateOperator<CR>', { silent = true, desc = 'Run operator selection' })
       vim.keymap.set('n', '<localleader>rl', ':MoltenEvaluateLine<CR>', { silent = true, desc = 'Evaluate line' })
