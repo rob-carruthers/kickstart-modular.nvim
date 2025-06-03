@@ -1,6 +1,6 @@
 local function open_cheatsheet()
   local buf = vim.api.nvim_create_buf(false, true) -- scratch buffer
-  local cheatsheet_path = vim.fn.expand '~/.config/nvim/CHEATSHEET.md'
+  local cheatsheet_path = vim.fn.stdpath 'config' .. '/CHEATSHEET.md'
   local lines = vim.fn.readfile(cheatsheet_path)
   vim.api.nvim_buf_set_lines(buf, 0, -1, false, lines)
   vim.bo[buf].filetype = 'markdown'
@@ -24,6 +24,7 @@ local function open_cheatsheet()
   vim.wo[win].number = false
   vim.wo[win].relativenumber = false
   vim.wo[win].wrap = true
+  vim.keymap.set('n', '<Esc>', '<cmd>bd!<CR>', { buffer = buf, silent = true })
 end
 
 vim.keymap.set('n', '<leader>cs', open_cheatsheet, { desc = 'Open cheat sheet' })
