@@ -43,6 +43,7 @@ require('lazy').setup({
   require 'custom/plugins/virtcolumn',
   require 'custom/plugins/comment',
   require 'custom/plugins/bufferline',
+  require 'custom/plugins/multicursor',
 
   require 'kickstart/plugins/todo-comments',
 
