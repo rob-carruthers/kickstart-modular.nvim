@@ -44,6 +44,7 @@ require('lazy').setup({
   require 'custom/plugins/comment',
   require 'custom/plugins/bufferline',
   require 'custom/plugins/multicursor',
+  require 'custom/plugins/render-markdown',
 
   require 'kickstart/plugins/todo-comments',
 
