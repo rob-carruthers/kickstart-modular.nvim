@@ -24,18 +24,12 @@
 | `:%s/old/new/gc`  | Replace all with confirmation          |
 | `:.,$s/old/new/g` | Replace from current line to end       |
 
----
-
 ## Window & Buffer Navigation
 
-| Mapping            | Command / Description          |
-| ------------------ | ------------------------------ |
-| `<C-h>`            | Move focus to the left window  |
-| `<C-j>`            | Move focus to the lower window |
-| `<C-k>`            | Move focus to the upper window |
-| `<C-l>`            | Move focus to the right window |
-| `\\`               | Open Neo-tree file explorer    |
-| `<leader><leader>` | List open buffers (Telescope)  |
+| Mapping            | Command / Description         |
+| ------------------ | ----------------------------- |
+| `\\`               | Open Neo-tree file explorer   |
+| `<leader><leader>` | List open buffers (Telescope) |
 
 ## Search (Telescope)
 
