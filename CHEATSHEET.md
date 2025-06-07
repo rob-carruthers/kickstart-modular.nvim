@@ -31,6 +31,15 @@
 | `\\`               | Open Neo-tree file explorer   |
 | `<leader><leader>` | List open buffers (Telescope) |
 
+## Todo (Checkmate)
+
+| Mapping      | Command / Description   |
+| ------------ | ----------------------- |
+| `<leader>Tn` | Create todo item        |
+| `<leader>Tt` | Toggle todo item status |
+| `<leader>Tc` | Check todo item         |
+| `<leader>Tu` | Uncheck todo item       |
+
 ## Search (Telescope)
 
 | Mapping      | Command / Description      |
