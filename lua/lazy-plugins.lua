@@ -46,6 +46,7 @@ require('lazy').setup({
   require 'custom/plugins/multicursor',
   require 'custom/plugins/render-markdown',
   require 'custom/plugins/checkmate',
+  require 'custom/plugins/vim-tmux-navigator',
 
   require 'kickstart/plugins/todo-comments',
 
