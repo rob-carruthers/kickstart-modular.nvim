@@ -90,7 +90,10 @@ return {
       vim.keymap.set('n', '<space>ih', '<cmd>IronHide<cr>', { silent = true, desc = 'Hide Iron' })
       vim.keymap.set('n', ']c', '/^#\\+ *%%\\+/<CR>j', { noremap = true, silent = true, desc = 'Next cell' })
       vim.keymap.set('n', '[c', '?^#\\+ *%%\\+<CR>k', { noremap = true, silent = true, desc = 'Previous cell' })
-      vim.keymap.set('n', '<space>ic', 'O# %%<Esc>o', { noremap = true, silent = true, desc = 'Insert cell marker' })
+      vim.keymap.set('n', '<space>ic', 'O# %%<Esc><CR>', { noremap = true, silent = true, desc = 'Insert cell marker' })
+      vim.keymap.set('n', '<space>iC', 'O# %%<CR>', { noremap = true, silent = true, desc = 'Insert cell marker and enter insert mode below' })
+      vim.keymap.set('n', '<space>ac', 'o# %%<CR><Esc>', { noremap = true, silent = true, desc = 'Append cell marker' })
+      vim.keymap.set('n', '<space>aC', 'o# %%<CR>', { noremap = true, silent = true, desc = 'Append cell marker and enter insert mode below' })
     end,
   },
 }
