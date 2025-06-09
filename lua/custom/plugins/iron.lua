@@ -18,7 +18,7 @@ return {
               command = { 'zsh' },
             },
             python = {
-              command = { 'ipython', '--no-autoindent' },
+              command = { 'ptipython', '--no-autoindent' },
               format = common.bracketed_paste_python,
               block_dividers = { '# %%', '#%%' },
             },
