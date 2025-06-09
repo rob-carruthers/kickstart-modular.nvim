@@ -39,7 +39,7 @@ require('lazy').setup({
   require 'custom/plugins/nordic',
   require 'custom/plugins/hardtime',
   require 'custom/plugins/nvim-notify',
-  require 'custom/plugins/molten-nvim',
+  -- require 'custom/plugins/molten-nvim',
   require 'custom/plugins/virtcolumn',
   require 'custom/plugins/comment',
   require 'custom/plugins/bufferline',
@@ -47,6 +47,7 @@ require('lazy').setup({
   require 'custom/plugins/render-markdown',
   require 'custom/plugins/checkmate',
   require 'custom/plugins/vim-tmux-navigator',
+  require 'custom/plugins/iron',
 
   require 'kickstart/plugins/todo-comments',
 
