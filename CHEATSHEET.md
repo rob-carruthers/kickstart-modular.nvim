@@ -13,6 +13,8 @@
 | `%`                   | Jump to matching bracket/brace/paren |
 | `*` / `#`             | Search next/prev word under cursor   |
 | `^`                   | First non-blank character of line    |
+| `<CTRL>-o`            | Go to previous jump location         |
+| `<CTRL>-i`            | Go to next jump location             |
 
 ## Substitutions
 
