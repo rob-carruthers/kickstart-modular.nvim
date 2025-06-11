@@ -49,6 +49,7 @@ require('lazy').setup({
   require 'custom/plugins/vim-tmux-navigator',
   require 'custom/plugins/iron',
   require 'custom/plugins/harpoon',
+  require 'custom/plugins/neogen',
 
   require 'kickstart/plugins/todo-comments',
 
