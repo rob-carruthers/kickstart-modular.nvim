@@ -48,6 +48,7 @@ require('lazy').setup({
   require 'custom/plugins/checkmate',
   require 'custom/plugins/vim-tmux-navigator',
   require 'custom/plugins/iron',
+  require 'custom/plugins/harpoon',
 
   require 'kickstart/plugins/todo-comments',
 
