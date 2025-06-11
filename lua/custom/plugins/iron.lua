@@ -35,7 +35,7 @@ return {
           -- See below for more information
           -- repl_open_cmd = view.bottom(40),
 
-          repl_open_cmd = view.split.vertical.botright(0.5),
+          repl_open_cmd = view.split.rightbelow '%35',
           -- repl_open_cmd can also be an array-style table so that multiple
           -- repl_open_commands can be given.
           -- When repl_open_cmd is given as a table, the first command given will
@@ -59,14 +59,14 @@ return {
           -- toggle_repl_with_cmd_1 = "<space>rv",
           -- toggle_repl_with_cmd_2 = "<space>rh",
           restart_repl = '<space>rR', -- calls `IronRestart` to restart the repl
-          send_motion = '<space>sc',
-          visual_send = '<space>sc',
+          send_motion = '<space>sm',
+          visual_send = '<space>sv',
           send_file = '<space>sf',
           send_line = '<space>sl',
           send_paragraph = '<space>sp',
           send_until_cursor = '<space>su',
           send_mark = '<space>sm',
-          send_code_block = '<space>sb',
+          send_code_block = '<space>sc',
           send_code_block_and_move = '<space>sn',
           mark_motion = '<space>mc',
           mark_visual = '<space>mc',
