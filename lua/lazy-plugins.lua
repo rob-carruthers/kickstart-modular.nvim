@@ -50,6 +50,7 @@ require('lazy').setup({
   require 'custom/plugins/iron',
   require 'custom/plugins/harpoon',
   require 'custom/plugins/neogen',
+  require 'custom/plugins/noice',
 
   require 'kickstart/plugins/todo-comments',
 
