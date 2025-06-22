@@ -9,8 +9,10 @@ return {
           local U = require 'nordic.utils'
           palette.bg_visual = U.blend(palette.orange.base, palette.bg, 0.15)
         end,
-        italic_comments = false,
-        reduced_blue = false,
+        bold_keywords = true,
+        italic_comments = true,
+        reduced_blue = true,
+        bright_border = true,
       }
 
       -- Load the colorscheme here.
