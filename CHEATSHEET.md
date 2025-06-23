@@ -33,6 +33,17 @@
 | `\\`               | Open Neo-tree file explorer   |
 | `<leader><leader>` | List open buffers (Telescope) |
 
+## Harpoon
+
+| Mapping     | Command / Description       |
+| ----------- | --------------------------- |
+| `<leader>A` | Add to project Harpoon list |
+| `<C-e>`     | Open Harpoon quick menu     |
+| `<M-j>`     | Go to shortcut 1            |
+| `<M-k>`     | Go to shortcut 2            |
+| `<M-l>`     | Go to shortcut 3            |
+| `<M-;>`     | Go to shortcut 4            |
+
 ## Todo (Checkmate)
 
 | Mapping      | Command / Description   |
