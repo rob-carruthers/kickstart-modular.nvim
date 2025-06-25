@@ -7,6 +7,7 @@ return {
       require('nordic').setup {
         after_palette = function(palette)
           local U = require 'nordic.utils'
+          palette.bg = palette.black1
           palette.bg_visual = U.blend(palette.orange.base, palette.bg, 0.15)
         end,
         bold_keywords = true,
