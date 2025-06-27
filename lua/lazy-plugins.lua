@@ -51,6 +51,7 @@ require('lazy').setup({
   require 'custom/plugins/harpoon',
   require 'custom/plugins/neogen',
   require 'custom/plugins/noice',
+  require 'custom/plugins/vim-be-better',
 
   require 'kickstart/plugins/todo-comments',
 
