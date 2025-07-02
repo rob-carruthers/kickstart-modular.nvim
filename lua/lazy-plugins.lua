@@ -53,6 +53,7 @@ require('lazy').setup({
   require 'custom.plugins.noice',
   require 'custom.plugins.vim-be-better',
   require 'custom.plugins.nvim-orgmode',
+  require 'custom.plugins.substitute',
 
   require 'kickstart.plugins.todo-comments',
 
