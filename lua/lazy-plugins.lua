@@ -54,6 +54,7 @@ require('lazy').setup({
   require 'custom.plugins.vim-be-better',
   require 'custom.plugins.nvim-orgmode',
   require 'custom.plugins.substitute',
+  require 'custom.plugins.indent-blankline',
   require 'custom.plugins.rainbow-delimiters',
 
   require 'kickstart.plugins.todo-comments',
