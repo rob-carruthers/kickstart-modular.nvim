@@ -107,5 +107,6 @@ require 'lazy-plugins'
 
 require 'cheatsheet'
 require 'custom.nvim-orgmode-beorg-compat'
+require 'custom.query_to_df'
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
