@@ -57,6 +57,7 @@ require('lazy').setup({
   require 'custom.plugins.indent-blankline',
   require 'custom.plugins.rainbow-delimiters',
   require 'custom.plugins.LuaSnip',
+  require 'custom.plugins.toggle-bool',
 
   require 'kickstart.plugins.todo-comments',
 
