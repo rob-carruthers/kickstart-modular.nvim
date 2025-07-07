@@ -58,6 +58,7 @@ require('lazy').setup({
   require 'custom.plugins.rainbow-delimiters',
   require 'custom.plugins.LuaSnip',
   require 'custom.plugins.toggle-bool',
+  require 'custom.plugins.obsidian',
 
   require 'kickstart.plugins.todo-comments',
 
