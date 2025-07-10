@@ -9,6 +9,7 @@ return {
           local U = require 'nordic.utils'
           palette.bg = palette.black1
           palette.bg_visual = U.blend(palette.orange.base, palette.bg, 0.15)
+          palette.fg_sidebar = palette.gray5
         end,
         bold_keywords = true,
         italic_comments = true,
